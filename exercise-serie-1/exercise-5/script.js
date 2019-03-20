@@ -26,10 +26,11 @@ function showSlides() {
 $('#image1').attr('src', slides[0]);
 $('#image1').data('index', 0);
 
-showSlides();
 
 
 $(document).ready(function() {
+	showSlides();
+
 let crop = $('.crop');
 
   crop.each(function() {
