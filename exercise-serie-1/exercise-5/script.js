@@ -29,16 +29,16 @@ $('#image1').data('index', 0);
 
 
 $(document).ready(function() {
-	showSlides();
+
 
 let crop = $('.crop');
 
   crop.each(function() {
-      var maxWidth = 500; // Max width for the image
-      var maxHeight = 500;    // Max height for the image
-      var ratio = 0;  // Used for aspect ratio
-      var width = $(this).width();    // Current image width
-      var height = $(this).height();  // Current image height
+      let maxWidth = 500; // Max width for the image
+      let maxHeight = 500;    // Max height for the image
+      let ratio = 0;  // Used for aspect ratio
+      let width = $(this).width();    // Current image width
+      let height = $(this).height();  // Current image height
 
       // Check if the current width is larger than the max
       if(width > maxWidth){
@@ -57,4 +57,6 @@ let crop = $('.crop');
           width = width * ratio;    // Reset width to match scaled image
       }
   });
+	
+		showSlides();
 });
