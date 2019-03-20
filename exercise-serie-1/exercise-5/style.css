@@ -1,22 +1,4 @@
-/* Slideshow container */
-
-
-* {box-sizing:border-box}
-
-
-
-/* Hide the images by default */
-/* .mySlides {
-  display: none;
-} */
-
-
-#tester8, #tester9, #tester, #tester2, #tester3, #tester4, #tester5,#tester6, #tester7{
-  position: absolute;
-  display: inline-block;
-  clip: rect(0, 400px, 400px, 0);
-}
-
-.containerx {
-  position: relative;
+.fadex{
+  display: flex;
+  justify-content: center;
 }
