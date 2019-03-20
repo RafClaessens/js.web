@@ -1,0 +1,18 @@
+button{
+    position: relative;;
+    top:10px;
+    left:10px;
+    width: 200px;
+    height: 100px;
+}
+
+#colorgen{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+div{
+    height: 500px;
+}

@@ -1,0 +1,9 @@
+.blokje{
+    display: flex;
+    justify-content: center;
+}
+
+.tekst{
+    display: flex;
+    justify-content: center;
+}

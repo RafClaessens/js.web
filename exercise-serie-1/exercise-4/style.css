@@ -1,0 +1,17 @@
+h1 {
+	animation-name: color_change;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: center;
+}
+
+@keyframes color_change {
+	from { color: rgb(73, 149, 212); }
+	to { color: rgb(184, 63, 15); }
+}
+
+.blokje{
+    display: flex;
+    justify-content: center;
+}

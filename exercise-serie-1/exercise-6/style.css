@@ -1,0 +1,16 @@
+/* body{
+    /* width: 900px; 
+  }
+   */
+  
+  #deck{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .centering{
+    display: flex;
+    justify-content: center;
+  }
