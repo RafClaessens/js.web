@@ -4,11 +4,20 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+    
   }
   
   .centering{
     display: flex;
     justify-content: center;
+  }
+
+  
+  img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
   }

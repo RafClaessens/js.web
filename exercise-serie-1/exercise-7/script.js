@@ -15,7 +15,7 @@ $(function(){
                 break;
             
                 case 1:
-                word.textContent = "TEST"
+                word.textContent = "U can never catch this!"
                 break;
                 
                 case 2:
@@ -31,7 +31,7 @@ $(function(){
                 break;
             
                 case 5:
-                word.textContent = "Catch me if u can!"
+                word.textContent = "U can never catch this!"
                 break;
             
                 case 6:
@@ -51,7 +51,7 @@ $(function(){
                 break;
             
                 case 10:
-                word.textContent = "Catch me if u can!"
+                word.textContent = "U can never catch this!"
                 break;
             
                 case 11:
@@ -114,7 +114,7 @@ $(function(){
             turn++;
 
             $(this).css({
-                left:(Math.random()*920)+"px",
+                left:(Math.random()*820)+"px",
                 top:(Math.random()*320)+"px",
             });
         }

@@ -1,1 +1,41 @@
-/*Use the .scss file instead!*/
+.koekje{
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.flexed{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.counting{
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img:active{
+    animation: animate 1s infinite;
+}
+#clickes, #clickes2{
+    display: none;
+}
+
+@keyframes animate {
+    from {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}

@@ -4,15 +4,7 @@
 body {
     font-size: 64px;
     background-color: rgb(24, 24, 24);
-  }
-  
-  button {
-    font-size: 26px;
-  }
-  
-  .background-green {
-    background: green;
-    background-color: green;
+    height: 500px;
   }
   
   .background-420 {
@@ -71,9 +63,7 @@ body {
   
   .container {
     display: grid;
-    justify-content: end;
-    grid-template-columns: 80px 80px 80px 80px;
-    grid-template-rows: 80px 80px;
+    justify-content: center;
     grid-template-areas: 
     "header header header header" 
     "main main main main" 
@@ -101,13 +91,12 @@ body {
   }
   
   button.btn {
-    background-color: white;
+    background-color: rgb(235, 233, 233);
     border: none;
     color: black;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     margin: 4px 2px;
-    /* border-radius: 50%; */
   }
   
   button.cyan {
